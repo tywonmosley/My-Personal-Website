@@ -1,5 +1,5 @@
 html{
-   background-color: ; 
+   background-color: rgb(206, 203, 199); 
 }
 nav{
     background-color: bisque;
@@ -38,3 +38,38 @@ gap: 10px;
 h1 { color: blue;
 font-size: 35px;
 text-align: center;}
+
+.portfolio img {width: 250px;
+ padding: 0px 100px;
+ position: relative;
+}
+
+h3{
+text-align: center;
+}
+.portfolio {display: grid;
+grid-template-columns:repeat(2, 1fr);
+grid-template-rows: repeat(5, 1fr);
+gap: 10px;
+position: relative; 
+text-align: center;
+}
+
+.imageone{grid-column: 2;
+grid-row: 1;
+}
+
+.imagetwo{grid-column: 1;
+    grid-row: 2;}
+
+.imagethree{grid-column: 2;
+    grid-row: 3;
+    }
+
+.imagefour{grid-column: 1;
+    grid-row: 4;
+}
+
+.imagefive{grid-column: 2;
+grid-row: 5;}
+
