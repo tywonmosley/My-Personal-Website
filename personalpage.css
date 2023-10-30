@@ -1,6 +1,8 @@
 html{
    background-color: rgb(206, 203, 199); 
 }
+p {text-align: justify;
+}
 nav{
     background-color: bisque;
     text-align: center;}
