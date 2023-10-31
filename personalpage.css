@@ -1,7 +1,9 @@
+@media(max-width:700px) { 
+    html{
+        margin: 0 auto ;} 
+    }
 html{
    background-color: rgb(206, 203, 199); 
-}
-p {text-align: justify;
 }
 nav{
     background-color: bisque;
@@ -75,3 +77,6 @@ grid-row: 1;
 .imagefive{grid-column: 2;
 grid-row: 5;}
 
+.paragraph{
+    text-align: justify;
+}
