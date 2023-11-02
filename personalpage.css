@@ -73,3 +73,21 @@ grid-row: 1;
 .imagefive{grid-column: 2;
 grid-row: 5;}
 
+.paragraph{
+    text-align: justify;
+   
+}
+
+.contact {display:flex;
+    justify-content: center;
+}
+
+.contact img {width: 250px;
+    padding: 0px 100px;
+    position: relative;}
+
+@media(max-width:525px) {
+    .portfolio, .labels {display: flex;
+    flex-direction: column;}
+}
+
